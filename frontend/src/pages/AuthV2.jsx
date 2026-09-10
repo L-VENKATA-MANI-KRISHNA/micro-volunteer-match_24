@@ -67,7 +67,7 @@ export default function Auth({ register = false }) {
 
   return (
     <div className="auth">
-      <Link className="brand" to="/"><HeartHandshake /> Micro<span>Match</span></Link>
+      <Link className="premium-brand auth-brand" to="/"><span className="brand-mark" style={{ backgroundColor: '#625cf2', color: '#fff' }}><HeartHandshake /></span><span>Micro<span>Volunteer</span></span></Link>
       <form onSubmit={submit}>
         <p className="eyebrow">{register ? 'JOIN THE MOVEMENT' : 'WELCOME BACK'}</p>
         <h1>{register ? 'Make your minutes matter.' : 'Sign in to your impact.'}</h1>

@@ -15,7 +15,8 @@ if (!process.env.JWT_SECRET) {
 
 await connectDB();
 const app = express();
-app.use(cors());
+const allowedOrigins = (process.env.CLIENT_URL || 'https://micro-volunteer-match-24-taupe.vercel.app').split(',').map(origin => origin.trim()).filter(Boolean);
+app.use(cors({ origin: allowedOrigins, credentials: true }));
 app.use(express.json({ limit: '100kb' }));
 app.use(morgan('dev'));
 app.get('/api/health', (_req, res) => res.json({ status: 'ok' }));

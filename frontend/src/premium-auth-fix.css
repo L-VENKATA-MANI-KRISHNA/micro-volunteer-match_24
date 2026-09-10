@@ -1,0 +1,2 @@
+.auth>.auth-brand{position:absolute;z-index:2;left:max(32px,calc((100vw - 1240px)/2));top:35px;font-size:18px;color:#17152f}.auth>.auth-brand .brand-mark{background:#17152f;color:#fff}.auth>.auth-brand .brand-mark svg{width:18px;color:#fff}.auth>.auth-brand>span:last-child>span{color:#625cf2}
+@media(max-width:820px){.auth>.auth-brand{left:20px;top:25px}}
