@@ -1,6 +1,6 @@
 # Micro-Volunteer Match
 
-A MERN campus platform for matching students with useful 10–15 minute volunteer tasks.
+A MERN campus platform for matching students with useful 10–15 minute volunteer tasks
 
 ## Run locally
 
